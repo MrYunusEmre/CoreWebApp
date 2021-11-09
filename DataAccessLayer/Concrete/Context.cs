@@ -13,6 +13,7 @@ namespace DataAccessLayer.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //add here your local database server name
+            //bunu yaptıktan sonra package manager console uzerinden update-database çalıştır
             optionsBuilder.UseSqlServer("..;database=CoreBlogDb;integrated security = true");
 
         }
