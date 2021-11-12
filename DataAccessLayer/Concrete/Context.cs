@@ -14,7 +14,7 @@ namespace DataAccessLayer.Concrete
         {
             //add here your local database server name
             //bunu yaptıktan sonra package manager console uzerinden update-database çalıştır
-            optionsBuilder.UseSqlServer("..;database=CoreBlogDb;integrated security = true");
+            optionsBuilder.UseSqlServer("server=GIZ-YUNUSERTUNC\\SQLEXPRESS;database=CoreBlogDb;integrated security = true");
 
         }
         public DbSet<About> Abouts { get; set; }

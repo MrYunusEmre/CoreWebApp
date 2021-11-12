@@ -14,4 +14,3 @@ C:\Users\yunusemre.ertunc\source\repos\CoreWeb\BusinessLayer\obj\Debug\net5.0\Bu
 C:\Users\yunusemre.ertunc\source\repos\CoreWeb\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
 C:\Users\yunusemre.ertunc\source\repos\CoreWeb\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
 C:\Users\yunusemre.ertunc\source\repos\CoreWeb\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
-C:\Users\yunusemre.ertunc\source\repos\CoreWeb\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
