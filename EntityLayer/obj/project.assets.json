@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yunusemre.ertunc\\.nuget\\packages\\": {}
+    "C:\\Users\\yeert\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yunusemre.ertunc\\source\\repos\\CoreWeb\\EntityLayer\\EntityLayer.csproj",
+      "projectUniqueName": "D:\\Coding\\C#\\CoreWebApp\\EntityLayer\\EntityLayer.csproj",
       "projectName": "EntityLayer",
-      "projectPath": "C:\\Users\\yunusemre.ertunc\\source\\repos\\CoreWeb\\EntityLayer\\EntityLayer.csproj",
-      "packagesPath": "C:\\Users\\yunusemre.ertunc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yunusemre.ertunc\\source\\repos\\CoreWeb\\EntityLayer\\obj\\",
+      "projectPath": "D:\\Coding\\C#\\CoreWebApp\\EntityLayer\\EntityLayer.csproj",
+      "packagesPath": "C:\\Users\\yeert\\.nuget\\packages\\",
+      "outputPath": "D:\\Coding\\C#\\CoreWebApp\\EntityLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yunusemre.ertunc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yeert\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

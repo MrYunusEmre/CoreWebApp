@@ -10,3 +10,15 @@ C:\Users\yunusemre.ertunc\source\repos\CoreWeb\EntityLayer\obj\Debug\net5.0\Enti
 C:\Users\yunusemre.ertunc\source\repos\CoreWeb\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\yunusemre.ertunc\source\repos\CoreWeb\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\yunusemre.ertunc\source\repos\CoreWeb\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+D:\Coding\C#\CoreWebApp\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+D:\Coding\C#\CoreWebApp\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+D:\Coding\C#\CoreWebApp\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+D:\Coding\C#\CoreWebApp\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
