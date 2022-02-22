@@ -304,3 +304,4 @@ D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\refint\CoreWeb.dll
 D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\CoreWeb.pdb
 D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\CoreWeb.genruntimeconfig.cache
 D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\ref\CoreWeb.dll
+D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repositories
 {
-    public class BlogRepository : IAboutDal
+    public class BlogRepository : IBlogDal
     {
         public void AddBlog(Blog blog)
         {
@@ -18,10 +18,30 @@ namespace DataAccessLayer.Repositories
             c.SaveChanges();
         }
 
+        public void Delete(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Blog> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public Blog getById(int id)
         {
             using var c = new Context();
             return c.Blogs.Find(id);
+        }
+
+        public Blog GetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(Blog t)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Blog> ListAllBlogs()
@@ -35,6 +55,11 @@ namespace DataAccessLayer.Repositories
             using var c = new Context();
             c.Remove(blog);
             c.SaveChanges();
+        }
+
+        public void Update(Blog t)
+        {
+            throw new NotImplementedException();
         }
 
         public void UpdateBlog(Blog blog)

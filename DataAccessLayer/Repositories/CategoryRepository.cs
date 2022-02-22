@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repositories
 {
-    public class CategoryRepository : IAboutDal
+    public class CategoryRepository : ICategoryDal
     {
         Context context = new Context();
         public void AddCategory(Category category)
@@ -18,10 +18,30 @@ namespace DataAccessLayer.Repositories
             context.SaveChanges(true);
         }
 
+        public void Delete(Category t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Category> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public Category getById(int id)
         {
             return context.Categories.Find(id);
-        }   
+        }
+
+        public Category GetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(Category t)
+        {
+            throw new NotImplementedException();
+        }
 
         public List<Category> ListAllCategory()
         {
@@ -32,6 +52,11 @@ namespace DataAccessLayer.Repositories
         {
             context.Remove(category);   
             context.SaveChanges(true);
+        }
+
+        public void Update(Category t)
+        {
+            throw new NotImplementedException();
         }
 
         public void UpdateCategory(Category category)
