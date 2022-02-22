@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using DataAccessLayer.Repositories;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace BusinessLayer.Concrete
         public void AddCategory(Category category)
         {
             throw new NotImplementedException();
+
         }
 
         public List<Category> GetAllCategories()
