@@ -59,8 +59,8 @@ namespace DataAccessLayer.Migrations
                     b.Property<DateTime>("BlogCreateDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("BlogImage")
-                        .HasColumnType("int");
+                    b.Property<string>("BlogImage")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("BlogStatus")
                         .HasColumnType("bit");
@@ -73,9 +73,6 @@ namespace DataAccessLayer.Migrations
 
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
-
-                    b.Property<string>("MyProperty")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("BlogID");
 
