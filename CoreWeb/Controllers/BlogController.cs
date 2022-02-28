@@ -15,6 +15,7 @@ namespace CoreWeb.Controllers
 
         public IActionResult BlogReadAll(int id)
         {
+            ViewBag.Id = id;   
             var values = blogManager.GetBlogsByID(id);
             return View(values);
         }
