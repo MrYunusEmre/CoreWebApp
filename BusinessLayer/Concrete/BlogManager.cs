@@ -32,6 +32,11 @@ namespace BusinessLayer.Concrete
             return blogDal.GetByID(id);
         }
 
+        public List<Blog> GetBlogListWithCategory()
+        {
+            return blogDal.GetListWithCategories();
+        }
+
         public void RemoveBlog(Blog blog)
         {
             blogDal.Delete(blog);
