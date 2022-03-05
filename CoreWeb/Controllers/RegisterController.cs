@@ -1,7 +1,9 @@
 ﻿using BusinessLayer.Concrete;
+using CoreWeb.ViewModels.Register;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace CoreWeb.Controllers
 {
@@ -11,7 +13,13 @@ namespace CoreWeb.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            RegisterManager registerManager = new RegisterManager(new EfCityRepository());
+            RegisterViewModel registerViewModel = new RegisterViewModel
+            {
+                Cities = registerManager.GetCities()
+            };
+
+            return View(registerViewModel);
         }
         [HttpPost]
         public IActionResult Index(Writer writer)
