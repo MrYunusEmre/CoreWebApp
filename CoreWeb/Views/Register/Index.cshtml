@@ -37,11 +37,11 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="exampleInputPassword1 mb-2">Şehir </label>
-                            <select class="form-group col-md-6">
+                            <select class="form-group col-md-6" name="WriterCity" >
                                 <option>--Şehir Seç--</option>
                                 @foreach(var city in Model.Cities)
                                 {
-                                    <option>@city.CityName</option>
+                                    <option value=@city.CityID>@city.CityName</option>
                                 }
                                 
 

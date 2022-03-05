@@ -4,6 +4,7 @@ using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CoreWeb.Controllers
 {
@@ -16,18 +17,24 @@ namespace CoreWeb.Controllers
             RegisterManager registerManager = new RegisterManager(new EfCityRepository());
             RegisterViewModel registerViewModel = new RegisterViewModel
             {
-                Cities = registerManager.GetCities()
+                Cities = registerManager.GetCities(),
             };
 
             return View(registerViewModel);
-        }
+        }   
         [HttpPost]
-        public IActionResult Index(Writer writer)
+        public IActionResult Index(RegisterViewModel registerViewModel)
         {
+            Writer writer = new Writer();
+            writer.WriterName = registerViewModel.WriterName;
+            writer.WriterImage = registerViewModel.WriterImage;
+            writer.WriterPassword = registerViewModel.WriterPassword;
+            writer.WriterMail = registerViewModel.WriterMail;
+            writer.WriterCity = registerViewModel.WriterCity;
             writer.WriterStatus = true;
             writer.WriterAbout = "Deneme Test";
             writerManager.AddWriter(writer);
             return RedirectToAction("Index","Blog");
-        }
     }
+}
 }
