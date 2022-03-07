@@ -317,3 +317,7 @@ D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\Components\C
 D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
 D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
 D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
+D:\Coding\C#\CoreWebApp\CoreWeb\bin\Debug\net5.0\FluentValidation.dll
+D:\Coding\C#\CoreWebApp\CoreWeb\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+D:\Coding\C#\CoreWebApp\CoreWeb\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\CoreWeb.MvcApplicationPartsAssemblyInfo.cs
