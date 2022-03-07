@@ -10,11 +10,29 @@
         "dependencies": {
           "DataAccessLayer": "1.0.0",
           "EntityLayer": "1.0.0",
+          "FluentMigrator.Abstractions": "3.3.2",
           "FluentValidation": "10.3.6",
           "FluentValidation.AspNetCore": "10.3.6"
         },
         "runtime": {
           "BusinessLayer.dll": {}
+        }
+      },
+      "FluentMigrator.Abstractions/3.3.2": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.ValueTuple": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Abstractions.dll": {
+            "assemblyVersion": "3.3.2.0",
+            "fileVersion": "3.3.2.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de-DE/FluentMigrator.Abstractions.resources.dll": {
+            "locale": "de-DE"
+          }
         }
       },
       "FluentValidation/10.3.6": {
@@ -894,6 +912,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.ValueTuple/4.4.0": {},
       "System.Windows.Extensions/4.7.0": {
         "dependencies": {
           "System.Drawing.Common": "4.7.0"
@@ -991,6 +1010,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentMigrator.Abstractions/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-llDjPyUOHzcfmrADIZHe15dnC84k9mE5kEaR5Nyy04Mig7JdcJ2TB2pRrHCM0eLb+EsWnQMfui8KyYTwD4HKpA==",
+      "path": "fluentmigrator.abstractions/3.3.2",
+      "hashPath": "fluentmigrator.abstractions.3.3.2.nupkg.sha512"
     },
     "FluentValidation/10.3.6": {
       "type": "package",
@@ -1635,6 +1661,13 @@
       "sha512": "sha512-npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
       "path": "system.threading.tasks.extensions/4.3.0",
       "hashPath": "system.threading.tasks.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "path": "system.valuetuple/4.4.0",
+      "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
     },
     "System.Windows.Extensions/4.7.0": {
       "type": "package",

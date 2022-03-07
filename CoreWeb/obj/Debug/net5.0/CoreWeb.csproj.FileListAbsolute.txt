@@ -321,3 +321,5 @@ D:\Coding\C#\CoreWebApp\CoreWeb\bin\Debug\net5.0\FluentValidation.dll
 D:\Coding\C#\CoreWebApp\CoreWeb\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 D:\Coding\C#\CoreWebApp\CoreWeb\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Coding\C#\CoreWebApp\CoreWeb\obj\Debug\net5.0\CoreWeb.MvcApplicationPartsAssemblyInfo.cs
+D:\Coding\C#\CoreWebApp\CoreWeb\bin\Debug\net5.0\FluentMigrator.Abstractions.dll
+D:\Coding\C#\CoreWebApp\CoreWeb\bin\Debug\net5.0\de-DE\FluentMigrator.Abstractions.resources.dll
